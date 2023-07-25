@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "StarWarsTest",
-    "slug": "StarWarsTest",
+    "name": "StarWarsSearch",
+    "slug": "StarWarsSearch",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aidar1987.StarWarsSearch"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5fd735bd-be51-4481-9f85-13db745170d4"
+      }
     }
   }
 }
